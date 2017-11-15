@@ -11,6 +11,7 @@ namespace First_application.Controllers
         // GET: Base
         public ActionResult Change()
         {
+            var a = 10;
             return View();
         }
         public ActionResult Create()
