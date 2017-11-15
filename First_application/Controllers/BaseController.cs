@@ -22,5 +22,9 @@ namespace First_application.Controllers
         {
             return View();
         }
+        public ActionResult RahulBranch()
+        {
+            return View();
+        }
     }
 }
