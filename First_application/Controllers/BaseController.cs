@@ -9,7 +9,15 @@ namespace First_application.Controllers
     public class BaseController : Controller
     {
         // GET: Base
-        public ActionResult Index()
+        public ActionResult Change()
+        {
+            return View();
+        }
+        public ActionResult Create()
+        {
+            return View();
+        }
+        public ActionResult Delete()
         {
             return View();
         }
